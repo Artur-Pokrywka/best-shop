@@ -1,0 +1,18 @@
+$main-blue: #08A6E4;
+$main-pink: #FB3B64;
+$main-mint: #55DFB4;
+$main-dark-gray: #707070;
+$main-gray: #95989A;
+$main-light-gray: #A5A5A5;
+$background-gray :#F7F7F7;
+$main-page-font: 'Raleway',
+sans-serif;
+$sans--font: 'Open Sans',
+sans-serif;
+// mixins
+@mixin fontStyle($famliy, $size, $weight, $color) {
+    font-family: $famliy;
+    font-size: $size;
+    font-weight: $weight;
+    color: $color;
+}
